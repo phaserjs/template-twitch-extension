@@ -1,5 +1,7 @@
 # Phaser Twitch Extension Template
 
+**[Read the Tutorial](https://phaser.io/tutorials/creating-twitch-extensions-with-phaser) that goes with this repo first.**
+
 This is a Phaser 3 project template to create a Twitch Overlay Extension that uses Vite for bundling. It supports hot-reloading for quick development workflow and includes scripts to generate production-ready builds to publish on Twitch.tv.
 
 ![Testing Extension Live](screenshot.gif "Testing Extension Live")
