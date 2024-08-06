@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/style.css">
+
+    <!-- 
+        This the Twitch Extension Helper, that MUST run inside Twitch Extensions to work. 
+        It exposes an API that allows us to use Twitch Extension specific features.  
+    -->
+    <script src="https://extension-files.twitch.tv/helper/v1/twitch-ext.min.js"></script>
+    <title>Phaser - Twitch Extension - Template</title>
+</head>
+
+<body>
+    <div id="app">
+        <div id="game-container"></div>
+    </div>
+    <script type="module" src="src/main.js"></script>
+</body>
+</html>
